@@ -7,5 +7,5 @@
 
 while true; do
     rm /tmp/.X0-lock &>/dev/null || true
-    startx ${PWD}/node_modules/electron/dist/electron ${PWD}/app --enable-logging
+    startx ${PWD}/app/node_modules/electron/dist/electron ${PWD}/app --enable-logging
 done
